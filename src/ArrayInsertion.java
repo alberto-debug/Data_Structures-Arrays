@@ -16,6 +16,9 @@ public class ArrayInsertion {
 
         //pushing array elementes from position 3 downwards
         for (int i = my_Array.length-1; i>Index_position; i--){
+            my_Array[i] = my_Array[i-1];
+
+            //Assigning value to array index 2
 
         }
     }
