@@ -6,6 +6,7 @@ public class arrayTraverse {
 
         for (int i = 0 ; i<LA.length;i++){
 
+            System.out.printf("LA[%d] = %d" , i , LA[i]);
         }
 
     }
