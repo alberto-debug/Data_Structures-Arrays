@@ -13,5 +13,10 @@ public class ArrayInsertion {
         int new_Value = 35;
 
         System.out.println("original values of the before insertion : \n " + Arrays.toString(my_Array));
+
+        //pushing array elementes from position 3 downwards
+        for (int i = my_Array.length-1; i>Index_position; i--){
+
+        }
     }
 }
