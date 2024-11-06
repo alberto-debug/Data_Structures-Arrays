@@ -16,7 +16,9 @@ public class ArrayInsertion {
         System.out.println("Array elements before insertion: \n" + Arrays.toString(my_Array));
 
         //pushing array elementes from position 3 downwards
+        for (int i = my_Array.length-1; i>index_position; i--){
 
+        }
 
         //Assigning value to array index 2
 
