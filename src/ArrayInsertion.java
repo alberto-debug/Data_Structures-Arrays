@@ -13,8 +13,7 @@ public class ArrayInsertion {
         int new_value = 38;
 
         System.out.println("Array elements before insertion: \n" + Arrays.toString(my_Array));
-
-
+        
         //pushing array elementes from position 3 downwards
         for (int i = my_Array.length-1; i > index_position; i--){
             my_Array[i] = my_Array[i-1];
@@ -27,6 +26,7 @@ public class ArrayInsertion {
         System.out.println("Array elements after insertion of 38: \n" + Arrays.toString(my_Array));
 
     }
+
 }
 //Objetivo do Loop: O loop percorre o array de trás para frente, movendo cada elemento uma
 // posição para a direita. Isso cria um espaço vazio na posição index_position, onde o novo valor (new_Value) será inserido mais tarde.
