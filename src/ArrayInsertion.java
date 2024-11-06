@@ -21,7 +21,7 @@ public class ArrayInsertion {
         }
 
         //Assigning value to array index 2
-
+        my_Array[index_position] = new_Value;
 
         //printing all elements after Insertion
 
