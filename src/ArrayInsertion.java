@@ -13,7 +13,7 @@ public class ArrayInsertion {
         int new_Value = 35;
 
         //printing all elements before Insertion
-        System.out.println("Array elements before insertion: \n" );
+        System.out.println("Array elements before insertion: \n" + Arrays.toString(my_Array));
 
         //pushing array elementes from position 3 downwards
 
