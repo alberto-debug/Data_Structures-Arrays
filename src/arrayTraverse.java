@@ -10,9 +10,9 @@ public class arrayTraverse {
 
             // Print the index and value of each element in the array
             System.out.printf("LA[%d] = %d \n" , i , LA[i]);
-
-        }
  
+        }
+
 
 
 
