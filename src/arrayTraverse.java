@@ -12,8 +12,8 @@ public class arrayTraverse {
             System.out.printf("LA[%d] = %d \n" , i , LA[i]);
 
         }
-
  
+
 
 
 
