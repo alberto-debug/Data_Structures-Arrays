@@ -10,7 +10,7 @@ public class ArrayInsertion {
         int index_Position = 2;
 
         //Define the new value
-        int new_Value= 38
+        int new_Value= 38;
 
         //printing all elements before Insertion
         System.out.println("All elements before insertion: \n" + Arrays.toString(my_Array));
