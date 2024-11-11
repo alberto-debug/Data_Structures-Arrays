@@ -6,10 +6,10 @@ public class arrayTraverse {
         int LA[] = {10, 20, 30 , 40 , 50};
 
         // Loop through each element in the array using its index
-       for (){
+       for (int i =0;i<LA.length;i++){
 
            // Print the index and value of each element in the array
-
+           System.out.printf("LA[%d] = %d \n", i , LA[i]);
 
        }
 
