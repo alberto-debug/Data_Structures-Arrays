@@ -26,7 +26,7 @@ public class ArrayInsertion {
         my_Array[index_Position] = new_Value;
 
         //printing all elements after Insertion
-        System
+        System.out.println("All elements after insertion: \n" + Arrays.toString(my_Array));
 
     }
 }
