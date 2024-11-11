@@ -7,25 +7,21 @@ public class ArrayInsertion {
         int my_Array[]  = {10, 20, 30, 40, 50};
 
         //Define the position to substitute, position 3 of the array
-        int index_Position = 2;
+        int new_Position = 2;
 
         //Define the new value
-        int new_Value= 38;
+        int new_Value = 37;
 
         //printing all elements before Insertion
-        System.out.println("All elements before insertion: \n" + Arrays.toString(my_Array));
+        System.out.println("All elements before insertion: \n")
 
         //pushing array elementes from position 3 downwards
-        for (int i = my_Array.length-1;i>index_Position;i--){
-            my_Array[i] = my_Array[i-1];
-        }
 
 
         //Assigning value to array index 2
-        my_Array[index_Position] = new_Value;
 
         //printing all elements after Insertion
-        System.out.println("All elements after insetion: \n" + Arrays.toString(my_Array));
+
     }
 }
 //Objetivo do Loop: O loop percorre o array de trás para frente, movendo cada elemento uma
