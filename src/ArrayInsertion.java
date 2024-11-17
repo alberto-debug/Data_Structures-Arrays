@@ -13,16 +13,18 @@ public class ArrayInsertion {
         int new_Value = 25;
 
         //printing all elements before Insertion
-
+        System.out.println("Array elements before Insertion: \n" + Arrays.toString(my_Array));
 
         //pushing array elementes from position 3 downwards
-
+        for (int i = my_Array.length-1; i>index_position;i--){
+            my_Array[i] = my_Array[i-1];
+        }
 
         //Assigning value to array index 2
-
+        my_Array[index_position] = new_Value;
 
         //printing all elements after Insertion
-
+        System.out.println("Array elements after insertion: \n" + Arrays.toString(my_Array));
 
     }
 }
