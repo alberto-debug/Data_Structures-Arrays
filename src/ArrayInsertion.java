@@ -10,13 +10,15 @@ public class ArrayInsertion {
         int indexposition = 2;
 
         //Define the new value
-
+        int newvalue = 35;
 
         //printing all elements before Insertion
-
+        System.out.println("All Array elements before insertion : " + Arrays.toString(my_Array));
 
         //pushing array elementes from position 3 downwards
-
+        for (int  i = my_Array.length-1; i>indexposition;i--){
+            my_Array[i] = my_Array[i-1];
+        }
 
         //Assigning value to array index 2
 
