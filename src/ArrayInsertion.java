@@ -21,10 +21,10 @@ public class ArrayInsertion {
         }
 
         //Assigning value to array index 2
-
+        my_Array[indexposition] = newvalue;
 
         //printing all elements after Insertion
-
+        System.out.println("All Array elements after insertion : " + Arrays.toString(my_Array));
 
     }
 
