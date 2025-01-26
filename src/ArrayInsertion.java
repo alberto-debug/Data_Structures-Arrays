@@ -9,6 +9,8 @@ public class ArrayInsertion {
         // Define the position to substitute, position 3 of the array
         int indexposition = 2;
 
+
+
         // Define the new value
         int newvalue = 35;
 
@@ -19,6 +21,8 @@ public class ArrayInsertion {
         for (int i = my_Array.length - 1; i > indexposition; i--) {
             my_Array[i] = my_Array[i - 1];
         }
+
+
 
         // Assigning value to array index 2
         my_Array[indexposition] = newvalue;
