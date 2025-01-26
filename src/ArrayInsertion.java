@@ -23,7 +23,6 @@ public class ArrayInsertion {
         }
 
 
-
         // Assigning value to array index 2
         my_Array[indexposition] = newvalue;
 
