@@ -8,6 +8,7 @@ public class ArrayInsertion {
 
         // Define the position to substitute, position 3 of the array
         int indexposition = 2;
+        
         // Define the new value
         int newvalue = 35;
 
